@@ -1,0 +1,33 @@
+# ── Web framework ─────────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+
+# ── LangChain / LangGraph ─────────────────────────────────────────────────────
+langchain
+langchain-core==1.2.18
+langchain-openai==1.1.11
+langchain-community==0.4.1
+langchain-postgres==0.0.17
+langchain-text-splitters==1.1.1
+langgraph
+langgraph-checkpoint==4.0.0
+langgraph-checkpoint-postgres==3.0.4
+
+# ── OpenAI ────────────────────────────────────────────────────────────────────
+openai==2.26.0
+
+# ── PostgreSQL ────────────────────────────────────────────────────────────────
+# Your env uses psycopg v3 only — psycopg2 is NOT needed (langchain-postgres supports psycopg3)
+psycopg[binary]==3.3.3
+psycopg-pool==3.3.0
+pgvector==0.3.6
+SQLAlchemy==2.0.46
+
+# ── Config / validation ───────────────────────────────────────────────────────
+pydantic==2.12.5
+pydantic-settings==2.13.1
+python-dotenv==1.2.1
+
+# ── Document loaders ─────────────────────────────────────────────────────────
+pypdf==6.7.2
