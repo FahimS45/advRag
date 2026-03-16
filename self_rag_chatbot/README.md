@@ -251,7 +251,7 @@ Sessions idle longer than 30 minutes are automatically purged by a background cl
 
 ```bash
 git clone https://github.com/FahimS45/advRag.git
-cd YOUR_REPO
+cd self_rag_chatbot
 ```
 
 ### 2. Start the database
